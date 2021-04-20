@@ -19,3 +19,13 @@ x<-c(1:10)
 x
 factorial(x)
 gamma(x+1)
+#Combinatoria Sección 3
+#En una carrera en la que participan diez caballos ¿de cuántas maneras diferentes se pueden dar los cuatro primeros lugares?
+install.packages("combinat")
+library("combinat")
+ficha<-c(1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4)
+x<-permutations(n = 4,r=4,repeats.allowed = TRUE)
+2*nrow(x)
+y<-combinations(n = 10,r = 3)
+y1<-combinations(n = 6,r = 2)
+print(nrow(y)+nrow(y1))
