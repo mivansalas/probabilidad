@@ -12,8 +12,13 @@ class(AuB)
 setdiff(B,C)
 install.packages("gtools")
 library("gtools")
-combinations(n = 3,r = 2,repeats.allowed =FALSE)
-class(permutations(n = 4,r = 4))
+combinations(n = 3,r = 3,v = c(1,1,2,2,2,2,3,3,3,3),repeats.allowed =FALSE)
+nrow(combinations(n = 15,r = 2))
+class(permutations(n = 6,r = 6))
+numbers<-nrow(permutations(n =10,r =3,repeats.allowed = TRUE))
+letters<-nrow(permutations(n =26,r =3,repeats.allowed = TRUE))
+Placas<-numbers*letters
+Placas
 class(permn(x=c(1,2,3,4)))
 x<-c(1:10)
 x
