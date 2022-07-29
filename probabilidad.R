@@ -7,7 +7,7 @@ A
 B
 C
 intersect(A,B)
-AuB<-union(A,B)
+union(A,B)
 class(AuB)
 setdiff(B,C)
 install.packages("gtools")
