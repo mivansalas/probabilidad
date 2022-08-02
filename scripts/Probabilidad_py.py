@@ -1,7 +1,5 @@
-A=set([1,2,3,4,5])
-B=set([1,4,5])
-A
-B
-A&B
-A|B
-install itertools
+###trabajo con reticulate
+install.packages("reticulate")
+library("reticulate")
+import numpy as np # Importamos numpy como el alias np
+import scipy as sp# Importamos scipy como el alias sp
