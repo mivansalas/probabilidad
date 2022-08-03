@@ -3,12 +3,13 @@ title: "Tema 1 - Probabilidad"
 author: ' Ricardo Alberich, Juan Gabriel Gomila y Arnau Mir'
 date: ''
 output:
-  slidy_presentation: default
+  beamer_presentation: default
   ioslides_presentation:
     css: Mery_style.css
     keep_md: no
     logo: Images/matriz_mov.gif
     widescreen: yes
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
